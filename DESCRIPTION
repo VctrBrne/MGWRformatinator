@@ -1,0 +1,30 @@
+Package: MGWRformatinator
+Title: Simplified formatting of US census and geography data (e.g., line polygon features of census blocks within the Tri-State Area), to include with research data in GWR and MGWR.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Trey",
+           family = "Hull",
+           role = c("aut", "cre"),
+           email = "trey.hull@slu.edu",
+           comment = c(ORCID = "https://orcid.org/0000-0002-4697-915X"))
+Description: The goal of this package will be to let people import US census data for their area of interest and analyse it, along with their research data, using GWR and MGWR. 
+License: AGPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    GWmodel,
+    DEoptimR, 
+    xts,
+    intervals,
+    robustbase,
+    spacetime,
+    FNN,
+    sf,
+    sp,
+    tidycensus,
+    tigris,
+    tmap
+Depends: 
+    R (>= 2.10)
+LazyData: true
